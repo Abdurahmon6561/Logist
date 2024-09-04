@@ -10,7 +10,7 @@ const Header = () => {
     <div>
       <header
         id="home-content"
-        className="brand-bg text-white py-4 fixed top-0 left-0 right-0 w-full z-50"
+        className="brand-bg text-white py-4 fixed top-0 left-0 right-0 px-2 w-full z-50"
       >
         <div className="container mx-auto flex justify-between items-center sm:px-0 px-2">
           <a href="/" className="text-2xl font-bold">
