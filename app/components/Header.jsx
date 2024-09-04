@@ -10,13 +10,13 @@ const Header = () => {
     <div>
       <header
         id="home-content"
-        className="brand-bg text-white py-4 fixed top-0 left-0 right-0 px-2 w-full z-50"
+        className="brand-bg text-white py-4 fixed top-0 left-0 right-0 w-full z-50"
       >
         <div className="container mx-auto flex justify-between items-center sm:px-0 px-2">
           <a href="/" className="text-2xl font-bold">
             <Image src={Logo} alt="logo" className="w-20 sm:w-28" />
           </a>
-          <nav className={`sm:flex ${isMenuOpen ? 'block' : 'hidden'} sm:space-x-6 space-x-5 flex`}>
+          <nav className={`sm:flex px-16 ${isMenuOpen ? 'block' : 'hidden'} sm:space-x-6 space-x-5 flex`}>
             <a href="#home" className="relative group">
               Home
               <span className="absolute left-0 bottom-0 w-full h-[1px] bg-white transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
