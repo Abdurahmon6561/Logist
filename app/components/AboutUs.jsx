@@ -7,7 +7,7 @@ const AboutUs = () => {
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">About Us</h2>
           <p className="text-lg max-w-2xl mx-auto mb-8 px-2">
-            Starting from humble beginnings, we've evolved into the leading
+            Starting from humble beginnings, we`ve evolved into the leading
             power-only logistics company with the largest network of qualified
             carriers across the United States.
           </p>
