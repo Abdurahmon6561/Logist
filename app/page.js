@@ -40,12 +40,12 @@ const Page = () => {
   }, []);
 
   return (
-    <div className="w-screen h-screen">
+    <div className="w-screen h-screen overflow-hidden">
       <Header />
 
       <section
         id="home"
-        className="relative bg-cover bg-center h-screen"
+        className="relative w-full h-full bg-cover bg-center"
         style={{ backgroundImage: "url('/images/background.jpg')" }}
       >
         <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-15 text-white animate-slide-middle">
@@ -75,7 +75,7 @@ const Page = () => {
         <div ref={mapRef} className="w-full h-96"></div>
       </section>
 
-    <Footer/>
+      <Footer />
     </div>
   );
 };
