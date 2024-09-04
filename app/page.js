@@ -40,7 +40,7 @@ const Page = () => {
   }, []);
 
   return (
-    <div>
+    <div className="w-screen h-screen">
       <Header />
 
       <section
