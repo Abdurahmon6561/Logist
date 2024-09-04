@@ -1,0 +1,56 @@
+/* app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.brand-bg {
+  background: #0E1F38;
+}
+
+
+
+
+
+
+
+
+
+/*  */
+@keyframes slideUp {
+  0% {
+    transform: translateY(450px); /* Start 250px below */
+    opacity: 0; /* Fully transparent */
+  }
+  100% {
+    transform: translateY(0); /* Slide up to its original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+.animate-slide-up {
+  animation: slideUp 1s ease-out forwards;
+}
+
+
+
+
+
+/*  */
+@keyframes slide-to-middle {
+  0% {
+    transform: translateX(-100%); /* Start from the left off-screen */
+    opacity: 0; /* Start fully transparent */
+  }
+  100% {
+    transform: translateX(0vw); /* End at the middle of the screen */
+    opacity: 1; /* Remain fully visible */
+  }
+}
+
+.animate-slide-middle {
+  animation: slide-to-middle 0.5s ease-in-out forwards; /* Run once with animation forwards */
+}
